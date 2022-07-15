@@ -1,5 +1,5 @@
 
-//draw on canvas
+
 const canvas1 = document.getElementById("canvas1")
 const ctx1 = canvas1.getContext("2d")
 //draw an image
@@ -7,6 +7,8 @@ const img = new Image()
 img.src = "./2.jpg"
 img.onload = () => {
   ctx1.drawImage(img, 0, 0, canvas1.width, canvas1.height)
+
+
 }
 
 const canvas2 = document.getElementById("canvas2")
