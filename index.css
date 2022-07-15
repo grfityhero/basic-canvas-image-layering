@@ -1,0 +1,38 @@
+body{
+    background-color: #888;
+  
+    height: 100vh;
+
+}
+#canvas1{
+    border:2px solid black;
+   
+    margin: auto auto;
+    width:400px;
+    height:300px;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    z-index: 0;
+    
+}
+#canvas2{
+    border:2px solid black;
+    
+    margin: auto auto;
+    width:400px;
+    height:300px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 0;
+
+}
+
+.result{
+    border:5px solid rgb(255, 255, 255); 
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 2;  
+}
